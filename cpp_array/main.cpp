@@ -25,5 +25,9 @@ int main()
     }
 
     // Intersect
+
+    // A Except B
+
+    // B Except A
     return 0;
 }
