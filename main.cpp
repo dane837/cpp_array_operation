@@ -23,9 +23,10 @@ int main(){
     for(int i = 0; i<ASize + BSize; i++){
         cout<<Union[i];
     }
+    cout<<""<<endl;
      //Intersect
 
-    cout<<" Intersection Of A and B: "<<endl;
+    cout<<"Intersection Of A and B: "<<endl;
     for (int i = 0; i < ASize; i++)
     {
         for (int j = 0; j < BSize; j++)
@@ -39,6 +40,7 @@ int main(){
 
 
 //     A Except B
+    
 
 //     B Except A
     return 0;
