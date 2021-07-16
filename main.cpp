@@ -5,12 +5,36 @@ using namespace std;
 int main(){
 
 
-    int A[7] = {2,3,4,5,6,7,8};
-    int B[4] = {2,5,7,9};
+//    int A[7] = {2,3,4,5,6,7,8};
+//    int B[4] = {2,5,7,9};
+
+    int i, j, ASize, BSize, A[10], B[10];
 
 
-    int ASize = sizeof (A)/sizeof (int);
-    int BSize = sizeof(B)/sizeof (int);
+    cout<<"Enter The Size Of A"<<endl;
+    cin>> ASize;
+
+    cout<<"Please Enter the elements of A"<<endl;
+
+    for(int i=0; i<ASize; i++){
+
+        cin>>A[i];
+    }
+
+    cout<<"Enter The Size Of B"<<endl;
+    cin>> BSize;
+
+    cout<<"Please Enter the elements of B"<<endl;
+
+    for(int j=0; j<BSize; j++){
+
+        cin>>B[j];
+    }
+
+
+
+//    int ASize = sizeof (A)/sizeof (int);
+//    int BSize = sizeof(B)/sizeof (int);
 
     cout<<"A = { ";
     for (int i = 0; i<ASize; i++){
@@ -29,8 +53,8 @@ int main(){
     cout<<"Union Of A and B: ";
 
 
-    int i=0, j=0;
-    for ( ; (i<ASize) && (j<BSize) ; ){
+//    int i =0, j=0;
+    for ( i=0, j=0 ; (i<ASize) && (j<BSize) ; ){
         if ( A[i] < B[j] ){
             cout<< A[i++] <<" ";
         }
