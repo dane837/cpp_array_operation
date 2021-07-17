@@ -8,7 +8,7 @@ int main(){
 //    int A[7] = {2,3,4,5,6,7,8};
 //    int B[4] = {2,5,7,9};
 
-    int i, j, ASize, BSize, A[10], B[10];
+    int i, j, ASize, BSize, A[i], B[j];
 
 
     cout<<"Enter The Size Of A"<<endl;
